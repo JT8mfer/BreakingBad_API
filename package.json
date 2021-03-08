@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontend": "node index.js",
-    "backend":"npm start --prefix frontend",
-    "dev": "concurrently \"npm run backend\"\"npm run frontend \""
+    "backend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "repository": {
     "type": "git",
